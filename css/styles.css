@@ -1,0 +1,117 @@
+:root{
+    --color-button: #FFF;
+    --color-logo: #2196F3;
+    --color-title: #212121;
+}
+
+body{
+    font-family: 'Roboto';
+    color: #000;
+    background: #F5F5F5;
+   }
+
+.logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+  color: #000;  
+    
+}
+.logos{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--color-logo);  
+}
+/*верхня лінія*/
+
+.site-nav .link
+{
+color: #000;
+}
+.site-nav .link:hover{
+    color: var(--color-logo);
+}
+.site-nav .link-current{
+    color: var(--color-logo);
+}
+
+/* cекція перша*/
+.caption{
+    background: #2F303A;
+    
+}
+.slogan{
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--color-button);
+}
+/*кнопка*/
+.button{
+    background: var(--color-logo);
+    color: var(--color-button);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+}
+.button-link{
+    color: #000;
+    background: #F5F4FA;
+    cursor: pointer;
+    font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+.button-link:hover
+{
+    color: var(--color-button);
+    background: var(--color-logo);
+}
+
+/*секція друга*/
+.title{
+    font-family: 'Roboto';
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--color-title);
+}
+.text{
+    font-family: 'Roboto';
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+
+}
+/*секція третя*/
+
+.subtitle{
+    font-family: 'Roboto';
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--color-title);
+
+}
