@@ -26,6 +26,14 @@ body{
     letter-spacing: 0.03em;
     color: var(--color-logo);  
 }
+.logo-footer{
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+  color: var(--color-button); 
+  text-decoration: none; 
+}
 /*верхня лінія*/
 
 .site-nav .link
@@ -85,6 +93,8 @@ font-style: normal;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    font-family: 'Roboto';
+font-weight: 700;
 
 }
 .button-link{
@@ -148,7 +158,7 @@ color: #757575;
 color: var(--color-logo);
 }
 .adres{
-
+    font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -156,6 +166,7 @@ color: var(--color-button) ;
 text-decoration: none;
 }
 .addres{
+    font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
